@@ -1,0 +1,4 @@
+- I now run the sniffAndSpoof.py program on the Attacker machine and run the ping command "ping 1.2.3.4" on the Server machine:
+  .I begin getting replies on the Server machine. It says the replies are from IP 1.2.3.4, but I know that isn’t true because that is a dead IP address as shown above. The replies are actually coming from the sniffAndSpoof.py program that is running on the Attacker machine. The program is working.
+- when i run command "ping 8.8.8.8" on server machine, it show duplicate replies.
+  .An interesting thing to note is that running the python program on the Attacker machine while the Server machine is pinging a live host results in duplicate replies, which the ping command lets you know by printing (DUP!) after each duplicate reply:

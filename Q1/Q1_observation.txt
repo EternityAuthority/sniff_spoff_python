@@ -1,0 +1,1 @@
+when i attempt sniff.py without root privilege, it show permission error.
